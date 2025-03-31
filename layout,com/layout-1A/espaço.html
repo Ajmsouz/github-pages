@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Espaço</title>
-    <link rel="stylesheet" href="./css/index.css" />
+    <title>Monitoramento de equipamentos</title>
+    <link rel="stylesheet" href="./css/espaço.css" />
     <link rel="shortcut icon" href="./img/download__2_-removebg-preview.png" type="image/x-icon">
   </head>
   <body>
@@ -16,25 +16,28 @@
       </header>
       <nav>
         <ul>
-            <li><a href="./index.html">Nasa</a></li>
-            <li><a href="./espaço.html">Espaço</a></li>
-            <li><a href="./robo.html">Robo</a></li>
-            <li><a href="./satelite.html">Duvidas</a></li>
+            
+            <li><a href="./espaço.html">Monitoramento de equipamentos</a></li>
+            <li><a href="./robo.html">Gerenciação de missões</a></li>
+            <li><a href="./satelite.html">Suporte</a></li>
         </ul>
       </nav>
       <section>
         <article>
-          <h1>O que sabemos do espaço</h1>
-          <p>Sabemos que o espaço é um vasto e desconhecido ambiente além da Terra, composto por planetas, estrelas, galáxias e outros corpos celestes. Estudamos suas origens, como o Big Bang, e fenômenos como buracos negros e a expansão do universo.</p>
-          <a href="https://science.nasa.gov/missions/hubble/hubble-spots-a-chance-alignment/">
-            <button>Espaço</button>
-          </a>
+          <h1>monitoração de equipamentos</h1>
+          <p>equipamentos a serem monitorados</p>
+          <form action="./espaço.html" method="post"><label for="country">País:</label>
+            <select id="country" name="country">
+              <option value="brasil">Motores</option>
+              <option value="portugal">Telescopio</option>
+              <option value="usa">Propulsores</option>
+              <option value="usa">Outros</option>
+            </select></form>
+          <form action="./espaço.html"><button type="submit">Procurar equipamentos</button></form>
+          <a href="./index.html"> <button>voltar</button></a>
         </article>
 
-        <article>
-          <h1 id="h1-video"></h1>
-          <iframe width="100%" src="https://youtu.be/dGEIsnBRWGs?si=K0KDIAt2lQntgOaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </article>
+       
       </section>
       <footer>
         <small>@2025 - NASA FAKE</small>

@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 :root {
-    --vermelho1: #FF0000;
-    --vermelho2: #FF0000;
-    --vermelho3: #FF0000;
+    --vermelho1: #ff0000;
+    --vermelho2: #ff0000;
+    --vermelho3: #Ff0000;
     --verde1: #207F65;
     --verde2: #30F2BB;
 }
@@ -73,18 +73,18 @@ main section {
 main section article {
   width: 40%;
   height: 50vh;
-float: left;
+  float: left;
   margin-left: 6.6%;
   margin-top: 2.5vh;
 }
 main section article h1{
   font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
- text-transform: uppercase;
+  text-transform: uppercase;
   text-align: center;
- text-align: left;
+  font-weight: bolder;
   font-size: 1.5em;
   /* margin-top: 0vh; */
-  color: #333;
+  color: #555;
 }
 main section article iframe{
   height: 35vh;
@@ -96,7 +96,7 @@ main section article iframe{
 main section article p{
   font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 1.1em;
-  color: #333;
+  color: #000;
 }
 main section article button{
   width: 60%;
@@ -116,7 +116,7 @@ main section article button{
 main footer {
   width: 100%;
   height: 6vh;
-  background-color: #f00;
+  background-color: #ff0000;
   background-size: 9%;
   background-repeat: no-repeat;
   background-position-x: 3%;
